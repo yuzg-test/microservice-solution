@@ -5,17 +5,17 @@ service_description:
 cse:
   service:
     registry:
-      address: https://cse.cn-north-1.myhuaweicloud.com:443
+      address: https://cse.cn-east-2.myhuaweicloud.com:443
       instance:
         watch: false
   config:
     client:
-      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
+      serverUri: https://cse.cn-east-2.myhuaweicloud.com:443
       refreshMode: 1
       refresh_interval: 5000
   monitor:
     client:
-      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
+      serverUri: https://cse.cn-east-2.myhuaweicloud.com:443
   rest:
     address: 0.0.0.0:9090
 
@@ -24,7 +24,7 @@ cse:
     pattern: "%h - - %t cs-uri %s %B %D %SCB-traceId"
 
 #  credentials:
-#    accessKey: your ak
-#    secretKey: your sk
-#    project: cn-north-1
+#    accessKey: 9LTLUJKYY45ZEEC3URS2
+#    secretKey: Fvry4YDCOmHvb8963Xw5lCqMeHGQuUPN4ludG8gf
+#    project: east-2
 #    akskCustomCipher: default
